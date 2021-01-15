@@ -29,6 +29,23 @@ specific_country
 inverse_leveraged  
 index_name  
 income_etf_category  
+asia_sub_group  
+bond_type  
+clean_energy_type  
+cross_sector_theme  
+currency_pair  
+dividend_type  
+dividend_weighting_type  
+europe_sub_group  
+fundamental_weighting_type  
+index_weighting_scheme  
+latin_america_sub_group  
+market_cap_weighting_type  
+other_asset_types  
+real_estate  
+regular_dividend_payor_type  
+social_environmental_type  
+target_date_multi_asset_type  
 ```
 If you want all ETFs for a given filtering criterion in single api call, you should set pagination=off
 `/yt/v1.0/etf/us/filter?field=asset_class&value=Equities (Stocks)&pagination=off`
